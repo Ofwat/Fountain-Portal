@@ -1,0 +1,137 @@
+/** Report table cell/row styles **/
+
+.table > thead > tr > td.input,
+.table > tbody > tr > td.input,
+.table > tfoot > tr > td.input,
+.table > thead > tr > th.input,
+.table > tbody > tr > th.input,
+.table > tfoot > tr > th.input,
+.table > thead > tr.input > td,
+.table > tbody > tr.input > td,
+.table > tfoot > tr.input > td,
+.table > thead > tr.input > th,
+.table > tbody > tr.input > th,
+.table > tfoot > tr.input > th {
+  background-color: #fcf8e3;
+}
+.table-hover > tbody > tr > td.input:hover,
+.table-hover > tbody > tr > th.input:hover,
+.table-hover > tbody > tr.input:hover > td,
+.table-hover > tbody > tr.input:hover > th {
+  background-color: #faf2cc;
+}
+
+.table > thead > tr > td.copy,
+.table > tbody > tr > td.copy,
+.table > tfoot > tr > td.copy,
+.table > thead > tr > th.copy,
+.table > tbody > tr > th.copy,
+.table > tfoot > tr > th.copy,
+.table > thead > tr.copy > td,
+.table > tbody > tr.copy > td,
+.table > tfoot > tr.copy > td,
+.table > thead > tr.copy > th,
+.table > tbody > tr.copy > th,
+.table > tfoot > tr.copy > th {
+  background-color: #f2dede;
+}
+.table-hover > tbody > tr > td.copy:hover,
+.table-hover > tbody > tr > th.copy:hover,
+.table-hover > tbody > tr.copy:hover > td,
+.table-hover > tbody > tr.copy:hover > th {
+  background-color: #ebcccc;
+}
+
+.table > thead > tr > td.calc,
+.table > tbody > tr > td.calc,
+.table > tfoot > tr > td.calc,
+.table > thead > tr > th.calc,
+.table > tbody > tr > th.calc,
+.table > tfoot > tr > th.calc,
+.table > thead > tr.calc > td,
+.table > tbody > tr.calc > td,
+.table > tfoot > tr.calc > td,
+.table > thead > tr.calc > th,
+.table > tbody > tr.calc > th,
+.table > tfoot > tr.calc > th {
+  background-color: #d9edf7;
+}
+.table-hover > tbody > tr > td.calc:hover,
+.table-hover > tbody > tr > th.calc:hover,
+.table-hover > tbody > tr.calc:hover > td,
+.table-hover > tbody > tr.calc:hover > th {
+  background-color: #c4e3f3;
+}
+
+input.copy {
+	background-color: #f2dede;
+	border: 0px;
+}
+
+input.calc {
+	background-color: #d9edf7;
+	border: 0px;	
+}
+
+input.input {
+	background-color: #fcf8e3;
+	border: 0px;
+}
+
+.colHeading {
+	font-weight: bold;
+}
+
+td.alignRight {
+	/*text-align: right;*/
+}
+/** End report styles **/
+
+
+/*Icons
+------------------------------------*/
+/*Social Icons*/
+.social-icons-fountain {
+   margin: 0;
+   padding: 0; 
+   float:right;
+}
+
+.social-icons-fountain li {
+   list-style: none;
+   margin-right: 3px;
+   margin-bottom: 5px;
+   text-indent: -9999px;
+   display: inline-block;
+}
+
+.social-icons-fountain li a, a.social-icon {
+   width: 28px;
+   height: 28px;
+   display: block;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.3s ease-in-out;
+}
+
+.social-icons-fountain li:hover a {
+   background-position: 0 -38px;
+}
+
+.social-icons-fountain-color li a {
+  opacity: 0.7;
+  background-position: 0 -38px !important;
+  -webkit-backface-visibility: hidden; /*For Chrome*/
+}
+
+.social-icons-fountain-color li a:hover {
+  opacity: 1;
+}
+
+.export_excel {background: url(../images/icons/social/excel.png) no-repeat;}
+
+

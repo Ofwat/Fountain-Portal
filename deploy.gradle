@@ -1,0 +1,5 @@
+task deployWar(type: Copy){
+	from 'target/FountainPortal-0.1.war'
+	into '//fnttest202/e$/Tomcat/Tomcat 7.0/webapps/'
+	rename 'FountainPortal-0.1.war', 'FountainPortal.war'
+}
